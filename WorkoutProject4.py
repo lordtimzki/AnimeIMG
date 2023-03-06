@@ -1,8 +1,12 @@
 #deals with input
-import api
-import ui
+import visual
+import file
 
+
+def main():
+    print('Hi welcome to the random anime image python program')
+    file.extract()
+    visual.img('img.json')
 
 if __name__ == "__main__":
-    print('Hi welcome to the random anime image python program')
-    ui.main()
+    main()
