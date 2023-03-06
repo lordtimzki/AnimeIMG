@@ -1,8 +1,15 @@
+'''
+Displays a generated anime girl.
+'''
+
 import visual
 import file
 
 
 def main():
+    '''
+    Contains the command list and the methods from other modules.
+    '''
     print('Welcome to displaying random anime girls using python')
     print('*' * 40)
     print('waifu - an anime girl')
