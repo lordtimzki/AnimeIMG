@@ -1,8 +1,10 @@
 #visualization
 #matplotlib
 import api
+import json
 
 def main():
-    print('Hi welcome to the random anime image python program')
     user_input = input('Please select one tag (maid, waifu): ')
-    api.get_random_anime_img(user_input)
+    img_details = api.get_random_anime_img(user_input)
+    with open('img.json', 'w') as image:
+        json.dump(img_details, image)
