@@ -1,8 +1,5 @@
 Timothy Dacalos
-47821565
 tdacalos@uci.edu
-
--need pdoc, pycodestyle, pylint
 
 Essentially uses the waifu.im api and prompts the user to select between 2 tags
 and will display a random anime girl as a jpeg image. When ran, it will prompt
