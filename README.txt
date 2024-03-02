@@ -8,4 +8,4 @@ given by the API. Using the json format, it uses urllib's request
 to take the url in the json file and download it to the local folder. Finally,
 it uses matplotlib to display the image on a graph.
 
-Not working on this anymore.
+Not working on this anymore, as it was just quick fun thing to work on for this class.
